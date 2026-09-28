@@ -2,7 +2,8 @@
 **A1.** find / -name '.bashrc
 
  ### Q2. 다음 2가지 명령어의 차이는 무엇인가? ($ find . -name ‘*.txt’, $ find . -name *.txt)
-**A2.** | 비교 항목 | `find . -name '*.txt'` | `find . -name *.txt` |
+**A2.** 
+| 비교 항목 | `find . -name '*.txt'` | `find . -name *.txt` |
 |---|---|---|
 | 따옴표 유무 | 작은따옴표로 패턴을 감쌈 | 따옴표가 없음 |
 | 와일드카드 처리 | 셸이 확장하지 않고 `*.txt`를 그대로 `find`에 전달함 | `find` 실행 전에 셸이 현재 디렉터리에서 `*.txt`를 일치하는 이름으로 확장함 |
