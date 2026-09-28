@@ -1,4 +1,4 @@
- ### Q1. ind 명령어로 .bashrc 파일의 위치를 검색하라.
+ ### Q1. find 명령어로 .bashrc 파일의 위치를 검색하라.
 **A1.**
 
  ### Q2. 다음 2가지 명령어의 차이는 무엇인가? ($ find . -name ‘*.txt’, $ find . -name *.txt)
